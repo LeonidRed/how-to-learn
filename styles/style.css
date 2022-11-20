@@ -9,27 +9,16 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+/* Микс для обнуления отступов строчных блоков */
 .no-indent {
   margin: 0;
   padding: 0;
 }
 
-/* .title-features-h2 {
-  width: 60%;
-  text-align: center;
-  line-height: 1.15em;
-  font-size: 60px;
-  font-weight: 600;
+/* Микс для внешних отступов блока */
+.block_margin {
+  margin: 100px 0;
 }
-
-.title-features-h3 {
-  width: 60%;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin-top: 20px;
-} */
 
 /* --------------- header start ------------- */
 
@@ -85,7 +74,6 @@
   height: 608px;
   width: 765px;
   background-image: url("../images/header-image.png");
-  background-position: center center;
   background-size: cover;
   position: absolute;
   bottom: 0;
@@ -110,7 +98,6 @@
 .description {
   display: flex;
   justify-content: center;
-  margin: 100px 0;
 }
 
 .two-columns {
@@ -154,7 +141,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px 0;
 }
 
 .section-title {
