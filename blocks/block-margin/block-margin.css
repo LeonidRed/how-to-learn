@@ -1,4 +1,4 @@
 /* Микс для внешних отступов блока */
-.block_margin {
+.block-margin {
   margin: 100px auto;
 }
