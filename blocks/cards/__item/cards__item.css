@@ -8,10 +8,5 @@
 }
 
 .cards__item:nth-child(3n) {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 60px;
   padding-right: 0;
-  max-width: 240px;
 }

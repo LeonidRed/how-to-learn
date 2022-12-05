@@ -1,5 +1,5 @@
-/* Микс для обнуления отступов строчных блоков */
-@import url(../blocks/no-indent/no-indent.css);
+@import url(../vendor/normalize.css);
+
 /* Микс для внешних отступов блока */
 @import url(../blocks/block-margin/block-margin.css);
 /* Микс для анимации вращения */
@@ -40,7 +40,6 @@
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
-@import url(../blocks/video/_decoration/video_decoration_bottom.css);
 /* --------------------video end---------------------------- */
 
 /* --------------------oakley start---------------------------- */
@@ -87,7 +86,7 @@
 
 /* --------------- resources start ------------- */
 @import url(../blocks/resources/resources.css);
-@import url(../blocks/resources/__logo-zone/resouces__logo-zone.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__link/resources__link.css);
 /* --------------- resources end ------------- */
 

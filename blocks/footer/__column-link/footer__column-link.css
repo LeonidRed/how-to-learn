@@ -1,4 +1,6 @@
 .footer__column-link {
+  margin: 0;
+  padding: 0;
   display: flex;
   gap: 10px;
   align-items: center;
@@ -7,9 +9,9 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
+  transition: opacity 1s;
 }
 
 .footer__column-link:hover {
   opacity: 0.5;
-  transition: opacity 1s;
 }
